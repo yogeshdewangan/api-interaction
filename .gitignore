@@ -16,3 +16,6 @@
 /.gradle/5.2.1/javaCompile/taskHistory.bin
 !/.idea/workspace.xml
 
+/.idea/
+/build/
+/gradle/
