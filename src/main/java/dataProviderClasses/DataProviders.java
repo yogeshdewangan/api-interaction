@@ -1,8 +1,6 @@
-package DataProviderClasses;
+package dataProviderClasses;
 
 import org.testng.annotations.DataProvider;
-
-import java.lang.reflect.Method;
 
 public class DataProviders {
 
@@ -11,6 +9,14 @@ public class DataProviders {
         return new Object[][]{
                 {1, 6, 12, 2},
                 {2, 6, 12, 2},
+        };
+    }
+
+    @DataProvider(name = "CreateUserData")
+    public static Object[][] createUsersData1() throws Exception{
+        return new Object[][]{
+                {"Yogesh", "QA"},
+                {"Rajesh", "QE"},
         };
     }
 }

@@ -1,7 +1,5 @@
-package Contracts;
+package contracts;
 
-
-import java.util.ArrayList;
 
 public class ListUsersResponse {
     private String per_page;

@@ -1,7 +1,7 @@
-package ContractHandlers;
+package contractHandlers;
 
-import ApiCalls.RAssured;
-import Contracts.ListUsersResponse;
+import apicalls.RAssured;
+import contracts.ListUsersResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import static org.testng.Assert.assertEquals;
